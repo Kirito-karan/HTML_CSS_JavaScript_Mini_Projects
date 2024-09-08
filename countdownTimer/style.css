@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/28120118/pexels-photo-28120118/free-photo-of-o-quy-h-pass-in-sapa-vietnam.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+h1{
+    font-size: 2;
+    font-family: poppins, sans-serif;
+    margin-top: 100px;
+}
+
+.timer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    gap: 5%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
