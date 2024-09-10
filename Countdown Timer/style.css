@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/28173558/pexels-photo-28173558/free-photo-of-moon-photography.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-size: cover;
+    background-position: center center;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+h1{
+    margin-top: 100px;
+    font-size: 2.2rem;
+}
+
+.input-details{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.countdown-time{
+    font-size: 35px;
+}
+
+input{
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #000;
+}
+
+button{
+    width: 120px;
+    font-size: 20px;
+    padding: 2px 0;
+    margin: 0 4px;
+    border-radius: 8px;
+}
